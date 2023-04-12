@@ -63,4 +63,4 @@ et enfin :
 Celle-ci est clairement de ma faute :p 
 
 Tout ça est un chouilla le bazar, le tuto est vieux et GPT est un héro !
-J'ai bien galéré et le projet ici est à jour ( pour le moment avril 2023 :p )
+J'ai bien galéré et le projet ici est à jour ( pour le moment : avril 2023)
