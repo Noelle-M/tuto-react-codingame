@@ -1,7 +1,8 @@
 # tuto-react-codingame
 ## Ce tuto date de 2017 !
+https://www.codingame.com/playgrounds/8894/redux-tutorial-for-beginners
 
-Create one project folder and in that create one file called package.json. Copy the following code into it.
+### Create one project folder and in that create one file called package.json. Copy the following code into it.
 
 {
   "name": "reduxapp",
@@ -32,13 +33,13 @@ Create one project folder and in that create one file called package.json. Copy 
 
 ----------------------------------------------------
 
-Switch to a terminal and type the following command.
+### Switch to a terminal and type the following command.
 
 npm install
 
 ---------------------------------------------------
 
-Next step will be to create the webpack.config.js file in the root folder.
+### Next step will be to create the webpack.config.js file in the root folder.
 
 // webpack.config.js
 
@@ -63,7 +64,7 @@ module.exports = {
 
 ---------------------------------------------------
 
-Also, create one file called in root called .babelrc
+### Also, create one file called in root called .babelrc
 
 {
   "presets": ["es2015", "react", "stage-3"]
