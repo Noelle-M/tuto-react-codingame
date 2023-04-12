@@ -34,7 +34,7 @@ https://www.codingame.com/playgrounds/8894/redux-tutorial-for-beginners
 
 ----------------------------------------------------
 
-### Switch to a terminal and type the following command.
+### taper la commande dans le terminal :
 
 npm install
 
