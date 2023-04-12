@@ -39,8 +39,8 @@ module.exports = {
 }
 
 ---------------------------------------------------
-
-Dans ce tuto CodinGame il n'est pas mentionné la commande :
+## Si des soucis d'affichage ou de compilation surviennent j'ai résolu les miens avec les commandes suivantes :
+! Dans ce tuto CodinGame il n'est pas mentionné la commande :
 <pre>npm install redux react-redux</pre>
 
 Ainsi que le besoin de créer le dossier dist qui contient le fichier bundle.js
