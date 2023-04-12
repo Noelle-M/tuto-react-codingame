@@ -3,40 +3,9 @@
 https://www.codingame.com/playgrounds/8894/redux-tutorial-for-beginners
 
 ### Créer un fichier package.json à la racine du projet.
+#### Une fois le projet cloné, il faut lancer le commande :
 
-{
-    "name": "reduxapp",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "start": "webpack-dev-server"
-    },
-    "author": "KRUNAL LATHIYA",
-    "license": "ISC",
-    "devDependencies": {
-        "babel-core": "^6.24.0",
-        "babel-loader": "^6.4.1",
-        "babel-preset-es2015": "^6.24.0",
-        "babel-preset-react": "^6.23.0",
-        "babel-preset-stage-3": "^6.22.0",
-        "webpack": "^2.3.2",
-        "webpack-dev-server": "^2.4.2"
-    },
-    "dependencies": {
-        "react": "^15.4.2",
-        "react-dom": "^15.4.2",
-        "react-redux": "^5.0.6",
-        "redux": "^3.7.2"
-    }
-}
-
-
-----------------------------------------------------
-
-### taper la commande dans le terminal :
-
-npm install
+<pre>npm install</pre>
 
 ---------------------------------------------------
 
@@ -73,7 +42,9 @@ module.exports = {
 ---------------------------------------------------
 
 Dans ce tuto CodinGame il n'est pas mentionné la commande :
-<pre>npm install redux react-redux</pre>la création du dossier dist qui contient le fichier bundle.js
+<pre>npm install redux react-redux</pre>
+
+Ainsi que le besoin de créer le dossier dist qui contient le fichier bundle.js
 
 Pour résoudre l'erreur : "Uncaught SyntaxError: import declarations may only appear at top level of a module" : 
 <pre>npm install --save-dev webpack webpack-cli webpack-dev-server babel-loader @babel/core @babel/preset-env @babel/preset-react
@@ -83,8 +54,8 @@ dans le fichier JavaScript sans utiliser un bundler tel que Webpack ou un compil
 Pour résoudre ce problème j'ai utilisé un bundler et un compilateur (recommandé) :
 Je vous recommande d'utiliser un bundler comme Webpack et un compilateur comme Babel pour transpiler votre code en un format que 
 les navigateurs peuvent comprendre.
-<pre>npm install --save-dev webpack webpack-cli webpack-dev-server babel-loader @babel/core @babel/preset-env @babel/preset-react
-</pre>
+Je ne suis pas sûre que <pre>babel-loader @babel/core @babel/preset-env @babel/preset-react</pre> 
+soient nécessaire pour transpiler le code en JS (dans l'doute...).
 
 et enfin :
 <pre>npm install -g npm@latest</pre> 
