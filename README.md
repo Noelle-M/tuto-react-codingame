@@ -2,7 +2,6 @@
 ## Ce tuto date de 2017 !
 https://www.codingame.com/playgrounds/8894/redux-tutorial-for-beginners
 
-### Créer un fichier package.json à la racine du projet.
 #### Une fois le projet cloné, il faut lancer le commande :
 
 <pre>npm install</pre>
@@ -54,7 +53,9 @@ dans le fichier JavaScript sans utiliser un bundler tel que Webpack ou un compil
 Pour résoudre ce problème j'ai utilisé un bundler et un compilateur (recommandé) :
 Je vous recommande d'utiliser un bundler comme Webpack et un compilateur comme Babel pour transpiler votre code en un format que 
 les navigateurs peuvent comprendre.
-Je ne suis pas sûre que <pre>babel-loader @babel/core @babel/preset-env @babel/preset-react</pre> 
+
+#### Je ne suis pas sûre que 
+<pre>babel-loader @babel/core @babel/preset-env @babel/preset-react</pre> 
 soient nécessaire pour transpiler le code en JS (dans l'doute...).
 
 et enfin :
